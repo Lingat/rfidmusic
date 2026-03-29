@@ -1,0 +1,20 @@
+{
+  "E004010084AC2F2D": {
+    "name": "Heatcl",
+    "artist": "Ricardo",
+    "src": "assets/music/heatcl.wav",
+    "imageSrc": "assets/images/ricardo.jpg"
+  },
+  "E004010084AC2E36": {
+    "name": "Smooth Bass",
+    "artist": "Someone idk",
+    "src": "assets/music/smoothbass.wav",
+    "imageSrc": "assets/images/ricardo.jpg"
+  },
+  "TEST": {
+    "name": "Heatcl",
+    "artist": "Ricardo",
+    "src": "assets/music/heatcl.wav",
+    "imageSrc": "assets/images/ricardo.jpg"
+  }
+}
