@@ -7,14 +7,14 @@
   },
   "E004010084AC2E36": {
     "name": "Smooth Bass",
-    "artist": "Someone idk",
+    "artist": "James Baxter",
     "src": "assets/music/smoothbass.wav",
-    "imageSrc": "assets/images/ricardo.jpg"
+    "imageSrc": "assets/images/horse.jpg"
   },
   "TEST": {
     "name": "Heatcl",
     "artist": "Ricardo",
     "src": "assets/music/heatcl.wav",
-    "imageSrc": "assets/images/ricardo.jpg"
+    "imageSrc": "assets/images/horse.jpg"
   }
 }
