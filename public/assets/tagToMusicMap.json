@@ -11,10 +11,16 @@
     "src": "assets/music/smoothbass.wav",
     "imageSrc": "assets/images/horse.jpg"
   },
+  "31007FB55E": {
+    "name": "Something",
+    "artist": "The Beatles",
+    "src": "assets/music/something.mp3",
+    "imageSrc": "assets/images/abbeyroad.jpg"
+  },
   "TEST": {
-    "name": "Heatcl",
-    "artist": "Ricardo",
-    "src": "assets/music/heatcl.wav",
-    "imageSrc": "assets/images/horse.jpg"
+    "name": "Something",
+    "artist": "The Beatles",
+    "src": "assets/music/something.mp3",
+    "imageSrc": "assets/images/abbeyroad.jpg"
   }
 }
