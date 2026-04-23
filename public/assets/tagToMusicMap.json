@@ -1,22 +1,61 @@
 {
-  "E004010084AC2F2D": {
+  "C19E4B19": {
     "name": "Heatcl",
-    "artist": "Ricardo",
+    "artist": "Rayleigh",
     "src": "assets/music/heatcl.wav",
-    "imageSrc": "assets/images/ricardo.jpg"
+    "imageSrc": "assets/images/ric0.jpg"
   },
-  "E004010084AC2E36": {
-    "name": "Smooth Bass",
-    "artist": "James Baxter",
-    "src": "assets/music/smoothbass.wav",
-    "imageSrc": "assets/images/horse.jpg"
+  "41A95119": {
+    "name": "Gliding",
+    "artist": "Rayleigh",
+    "src": "assets/music/gliding.m4a",
+    "imageSrc": "assets/images/ric1.jpg"
   },
-  "31007FB55E": {
-    "name": "Something",
-    "artist": "The Beatles",
-    "src": "assets/music/something.mp3",
-    "imageSrc": "assets/images/abbeyroad.jpg"
+  "61298A19": {
+    "name": "Been Too Long",
+    "artist": "Rayleigh",
+    "src": "assets/music/been too long.m4a",
+    "imageSrc": "assets/images/ric2.jpg"
   },
+  "47EA6809": {
+    "name": "Swerve",
+    "artist": "Rayleigh",
+    "src": "assets/music/swerve.m4a",
+    "imageSrc": "assets/images/ric3.jpg"
+  },
+
+  "E7F26A09": {
+    "name": "Love Can Hurt",
+    "artist": "Ethan",
+    "src": "assets/video/eth1.mp4",
+    "imageSrc": ""
+  },
+  "07A53D09": {
+    "name": "Yummy",
+    "artist": "Ethan",
+    "src": "assets/video/eth2.mp4",
+    "imageSrc": ""
+  },
+  "07A53D09": {
+    "name": "AHHH",
+    "artist": "Ethan",
+    "src": "assets/video/eth3.mp4",
+    "imageSrc": ""
+  },
+  "310D7819": {
+    "name": "Quick Maths",
+    "artist": "Ethan",
+    "src": "assets/video/eth4.mp4",
+    "imageSrc": ""
+  },
+
+  "C1295619": {
+    "name": "ayo",
+    "artist": "Ethan",
+    "src": "assets/video/eth5.mp4",
+    "imageSrc": ""
+  },
+
   "TEST": {
     "name": "Something",
     "artist": "The Beatles",
