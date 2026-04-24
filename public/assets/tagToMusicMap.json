@@ -23,43 +23,84 @@
     "src": "assets/music/swerve.m4a",
     "imageSrc": "assets/images/ric3.jpg"
   },
-
+  "47EA6809 PLEASE FIX": {
+    "name": "Grain",
+    "artist": "Rayleigh",
+    "src": "assets/music/grain.m4a",
+    "imageSrc": "assets/images/ric4.jpg"
+  },
+  "47EA6809 PLEASE FIX": {
+    "name": "Gotta Start",
+    "artist": "Rayleigh",
+    "src": "assets/music/gotta start.m4a",
+    "imageSrc": "assets/images/ric5.jpg"
+  },
+  "47EA6809 PLEASE FIX": {
+    "name": "All The Time",
+    "artist": "Rayleigh",
+    "src": "assets/music/allthetime.m4a",
+    "imageSrc": "assets/images/ric6.jpg"
+  },
   "E7F26A09": {
     "name": "Love Can Hurt",
     "artist": "Ethan",
     "src": "assets/video/eth1.mp4",
-    "imageSrc": ""
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth1.jpg"
   },
   "07A53D09": {
     "name": "Yummy",
     "artist": "Ethan",
     "src": "assets/video/eth2.mp4",
-    "imageSrc": ""
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth2.jpg"
   },
   "07A53D09": {
     "name": "AHHH",
     "artist": "Ethan",
     "src": "assets/video/eth3.mp4",
-    "imageSrc": ""
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth3.jpg"
   },
   "310D7819": {
     "name": "Quick Maths",
     "artist": "Ethan",
     "src": "assets/video/eth4.mp4",
-    "imageSrc": ""
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth4.jpg"
   },
-
   "C1295619": {
     "name": "ayo",
     "artist": "Ethan",
-    "src": "assets/video/eth5.mp4",
-    "imageSrc": ""
+    "src": "assets/video/eth6.mp4",
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth5.jpg"
   },
-
+  "C1295619 FIX ME": {
+    "name": "INPUT NEW VID",
+    "artist": "Ethan",
+    "src": "assets/video/eth6.mp4",
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth6.jpg"
+  },
+  "C1295619 FIX ME 2": {
+    "name": "INPUT NEW VID",
+    "artist": "Rayleigh",
+    "src": "assets/video/eth6.mp4",
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/ric8.jpg"
+  },
   "TEST": {
     "name": "Something",
     "artist": "The Beatles",
     "src": "assets/music/something.mp3",
     "imageSrc": "assets/images/abbeyroad.jpg"
+  },
+  "ETH": {
+    "name": "Quick Maths",
+    "artist": "Ethan",
+    "src": "assets/video/eth4.mp4",
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/eth5.jpg"
   }
 }

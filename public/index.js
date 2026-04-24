@@ -13,6 +13,31 @@ fetch("./assets/tagToMusicMap.json")
     const songTitle = document.getElementById("songTitle");
     const songArtist = document.getElementById("songArtist");
     const songImage = document.getElementById("songImage");
+    const scanTitle = document.getElementsByTagName("h1")[0];
+
+    const performScan = (upperQuery) => {
+      // 1. Remove header
+      scanTitle.innerHTML = "";
+      if (tagKeys.includes(upperQuery)) {
+        stopVideo();
+        stopAudio();
+        let media = data[upperQuery];
+        songTitle.innerHTML = media.name;
+        songArtist.innerHTML = `By ${media.artist}`;
+        songImage.src = media.imageSrc;
+
+        if (media.src.toLowerCase().endsWith(".mp4")) {
+          playVideo(media.src);
+        } else {
+          playAudio(media.src);
+        }
+      } else {
+        alert("Tag is not registered");
+      }
+      inputField.value = "";
+      inputBuffer = "";
+    };
+
     const playAudio = (src) => {
       rfidAudio.src = src;
       rfidAudio.load();
@@ -35,31 +60,18 @@ fetch("./assets/tagToMusicMap.json")
       rfidVideo.pause();
     };
 
+    const urlParams = new URLSearchParams(window.location.search);
+    const songId = urlParams.get("id");
+
+    if (songId) {
+      // scan the song if we have an id
+      performScan(songId);
+    }
     inputField.addEventListener("keydown", (event) => {
       if (event.key === "Enter") {
-        // 2. Capture the current text
         const currentQuery = inputField.value;
-
-        // 3. Perform your logic (e.g., checking tagKeys)
         const upperQuery = currentQuery.toUpperCase();
-        if (tagKeys.includes(upperQuery)) {
-          stopVideo();
-          stopAudio();
-          let media = data[upperQuery];
-          songTitle.innerHTML = media.name;
-          songArtist.innerHTML = `By ${media.artist}`;
-          songImage.src = media.imageSrc;
-
-          if (media.src.toLowerCase().endsWith(".mp4")) {
-            playVideo(media.src);
-          } else {
-            playAudio(media.src);
-          }
-        } else {
-          alert("Tag is not registered");
-        }
-        inputField.value = "";
-        inputBuffer = "";
+        performScan(upperQuery);
       }
     });
   })
