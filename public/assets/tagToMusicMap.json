@@ -23,23 +23,37 @@
     "src": "assets/music/swerve.m4a",
     "imageSrc": "assets/images/ric3.jpg"
   },
-  "47EA6809 PLEASE FIX": {
+  "A1084919": {
     "name": "Grain",
     "artist": "Rayleigh",
     "src": "assets/music/grain.m4a",
-    "imageSrc": "assets/images/ric4.jpg"
+    "imageSrc": "assets/images/ric9.jpg"
   },
-  "47EA6809 PLEASE FIX": {
+  "514A7F19": {
     "name": "Gotta Start",
     "artist": "Rayleigh",
     "src": "assets/music/gotta start.m4a",
     "imageSrc": "assets/images/ric5.jpg"
   },
-  "47EA6809 PLEASE FIX": {
+  "61069019": {
     "name": "All The Time",
     "artist": "Rayleigh",
     "src": "assets/music/allthetime.m4a",
     "imageSrc": "assets/images/ric6.jpg"
+  },
+  "21879119": {
+    "name": "Gold Coast",
+    "artist": "Ricardo",
+    "src": "assets/video/ric1.mp4",
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/ric8.jpg"
+  },
+  "A1AC4E19": {
+    "name": "Hurricane",
+    "artist": "Ricardo",
+    "src": "assets/video/ric2.mp4",
+    "imageSrc": "",
+    "videoImageSrc": "assets/images/ric10.jpg"
   },
   "E7F26A09": {
     "name": "Love Can Hurt",
@@ -48,7 +62,7 @@
     "imageSrc": "",
     "videoImageSrc": "assets/images/eth1.jpg"
   },
-  "07A53D09": {
+  "01558419": {
     "name": "Yummy",
     "artist": "Ethan",
     "src": "assets/video/eth2.mp4",
@@ -72,35 +86,28 @@
   "C1295619": {
     "name": "ayo",
     "artist": "Ethan",
-    "src": "assets/video/eth6.mp4",
+    "src": "assets/video/eth5.mp4",
     "imageSrc": "",
     "videoImageSrc": "assets/images/eth5.jpg"
   },
-  "C1295619 FIX ME": {
-    "name": "INPUT NEW VID",
+  "E1FA4B19": {
+    "name": "Origins",
     "artist": "Ethan",
     "src": "assets/video/eth6.mp4",
     "imageSrc": "",
     "videoImageSrc": "assets/images/eth6.jpg"
   },
-  "C1295619 FIX ME 2": {
-    "name": "INPUT NEW VID",
-    "artist": "Rayleigh",
-    "src": "assets/video/eth6.mp4",
+  "21754519": {
+    "name": "Ol' Mirage",
+    "artist": "Ethan",
+    "src": "assets/video/eth7.mp4",
     "imageSrc": "",
-    "videoImageSrc": "assets/images/ric8.jpg"
+    "videoImageSrc": "assets/images/eth7.jpg"
   },
   "TEST": {
     "name": "Something",
     "artist": "The Beatles",
     "src": "assets/music/something.mp3",
     "imageSrc": "assets/images/abbeyroad.jpg"
-  },
-  "ETH": {
-    "name": "Quick Maths",
-    "artist": "Ethan",
-    "src": "assets/video/eth4.mp4",
-    "imageSrc": "",
-    "videoImageSrc": "assets/images/eth5.jpg"
   }
 }

@@ -120,7 +120,7 @@
           let mediaHtml = "";
           if (item.imageSrc && item.imageSrc !== "") {
             mediaHtml = `<img src="${item.imageSrc}" alt="${item.name}">`;
-          } else if (item.src.endsWith(".mp4")) {
+          } else if (item.src.endsWith(".mp4") || item.src.endsWith(".MOV")) {
             mediaHtml = `
                         <img src="${item.videoImageSrc}" alt="${item.name}">`;
           } else {

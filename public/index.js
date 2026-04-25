@@ -26,7 +26,10 @@ fetch("./assets/tagToMusicMap.json")
         songArtist.innerHTML = `By ${media.artist}`;
         songImage.src = media.imageSrc;
 
-        if (media.src.toLowerCase().endsWith(".mp4")) {
+        if (
+          media.src.toLowerCase().endsWith(".mp4") ||
+          media.src.toLowerCase().endsWith(".MOV")
+        ) {
           playVideo(media.src);
         } else {
           playAudio(media.src);
